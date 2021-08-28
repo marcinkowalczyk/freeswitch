@@ -1509,7 +1509,7 @@ ENDPOINTS_MODULES="endpoints/mod_dingaling \
 EVENT_HANDLERS_MODULES="event_handlers/mod_cdr_csv event_handlers/mod_cdr_pg_csv event_handlers/mod_cdr_sqlite \
 			event_handlers/mod_cdr_mongodb event_handlers/mod_format_cdr event_handlers/mod_erlang_event event_handlers/mod_event_multicast \
 			event_handlers/mod_event_socket event_handlers/mod_json_cdr event_handlers/mod_kazoo event_handlers/mod_radius_cdr \
-			event_handlers/mod_snmp"
+			event_handlers/mod_snmp event_handlers/mod_amqp"
 %if %{build_mod_rayo}
 EVENT_HANDLERS_MODULES+=" event_handlers/mod_rayo"
 %endif
