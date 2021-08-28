@@ -1033,13 +1033,13 @@ BuildRequires:	net-snmp-devel
 %description event-snmp
 SNMP stats reporter for the FreeSWITCH open source telephony platform
 
-%package event-amqp
+%package event-ampq
 Summary:	AMQP Event System for the FreeSWITCH open source telephony platform
 Group:		System/Libraries
 Requires:	 %{name} = %{version}-%{release}
 BuildRequires:	librabbitmq-devel
 
-%description event-amqp
+%description event-ampq
 AMQP Event System for FreeSWITCH.
 
 
